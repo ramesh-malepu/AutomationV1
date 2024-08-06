@@ -15,7 +15,7 @@ public class ReverseString1 {
 			rev=rev+s.charAt(i);
 			
 		}
-		System.out.println(rev);	
+		System.out.println("reverse string is:"+rev);	
 				
 	
 	if (s==rev) {

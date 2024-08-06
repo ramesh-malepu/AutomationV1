@@ -1,81 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-13T22:32:10 IST" name="Suite" finished-at="2024-07-13T22:32:31 IST" duration-ms="21067">
+  <suite started-at="2024-07-15T19:15:32 IST" name="Default suite" finished-at="2024-07-15T19:15:44 IST" duration-ms="11826">
     <groups>
     </groups>
-    <test started-at="2024-07-13T22:32:10 IST" name="ChromeTest" finished-at="2024-07-13T22:32:23 IST" duration-ms="13179">
-      <class name="TestNgParam.ParallelTestsDemo">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestNgParam.ParallelTestsDemo@55183b20]" started-at="2024-07-13T22:32:10 IST" name="setup" finished-at="2024-07-13T22:32:20 IST" duration-ms="9443" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-07-15T19:15:32 IST" name="Default test" finished-at="2024-07-15T19:15:44 IST" duration-ms="11826">
+      <class name="PageObjectModelPattern.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PageObjectModelPattern.LoginTest@7d8995e]" started-at="2024-07-15T19:15:32 IST" name="setup" finished-at="2024-07-15T19:15:42 IST" duration-ms="9739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testlogo()[pri:1, instance:TestNgParam.ParallelTestsDemo@55183b20]" started-at="2024-07-13T22:32:20 IST" name="testlogo" finished-at="2024-07-13T22:32:23 IST" duration-ms="2908" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:PageObjectModelPattern.LoginTest@7d8995e]" started-at="2024-07-15T19:15:42 IST" name="testLogin" finished-at="2024-07-15T19:15:43 IST" duration-ms="1651" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlogo -->
-        <test-method signature="testTitle()[pri:2, instance:TestNgParam.ParallelTestsDemo@55183b20]" started-at="2024-07-13T22:32:23 IST" name="testTitle" finished-at="2024-07-13T22:32:23 IST" duration-ms="45" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTitle -->
-        <test-method signature="testUrl()[pri:3, instance:TestNgParam.ParallelTestsDemo@55183b20]" started-at="2024-07-13T22:32:23 IST" name="testUrl" finished-at="2024-07-13T22:32:23 IST" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUrl -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNgParam.ParallelTestsDemo@55183b20]" started-at="2024-07-13T22:32:23 IST" name="tearDown" finished-at="2024-07-13T22:32:23 IST" duration-ms="626" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PageObjectModelPattern.LoginTest@7d8995e]" started-at="2024-07-15T19:15:43 IST" name="tearDown" finished-at="2024-07-15T19:15:44 IST" duration-ms="338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestNgParam.ParallelTestsDemo -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2024-07-13T22:32:10 IST" name="EdgeTest" finished-at="2024-07-13T22:32:31 IST" duration-ms="21066">
-      <class name="TestNgParam.ParallelTestsDemo">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestNgParam.ParallelTestsDemo@33d512c1]" started-at="2024-07-13T22:32:10 IST" name="setup" finished-at="2024-07-13T22:32:30 IST" duration-ms="19506" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testlogo()[pri:1, instance:TestNgParam.ParallelTestsDemo@33d512c1]" started-at="2024-07-13T22:32:30 IST" name="testlogo" finished-at="2024-07-13T22:32:30 IST" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testlogo -->
-        <test-method signature="testTitle()[pri:2, instance:TestNgParam.ParallelTestsDemo@33d512c1]" started-at="2024-07-13T22:32:30 IST" name="testTitle" finished-at="2024-07-13T22:32:30 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTitle -->
-        <test-method signature="testUrl()[pri:3, instance:TestNgParam.ParallelTestsDemo@33d512c1]" started-at="2024-07-13T22:32:30 IST" name="testUrl" finished-at="2024-07-13T22:32:30 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUrl -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNgParam.ParallelTestsDemo@33d512c1]" started-at="2024-07-13T22:32:30 IST" name="tearDown" finished-at="2024-07-13T22:32:31 IST" duration-ms="1411" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestNgParam.ParallelTestsDemo -->
-    </test> <!-- EdgeTest -->
-  </suite> <!-- Suite -->
+      </class> <!-- PageObjectModelPattern.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
